@@ -98,3 +98,5 @@ resource "aws_route_table_association" "digistack_public_assoc" {
   subnet_id      = aws_subnet.digistack_vpc_subnet.id
   route_table_id = aws_route_table.digistack_public_rt.id
 }
+
+
