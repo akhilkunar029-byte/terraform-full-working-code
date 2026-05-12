@@ -69,6 +69,10 @@ jobs:
           name: plan
           path: .
       
-      - name: Applying th eterraform code 
+      - name: Applying th terraform code 
         run: | 
           terraform apply -auto-approve tfplan
+
+      - name: destroying th terraform code 
+        run: | 
+          terraform destroy -auto-approve 
