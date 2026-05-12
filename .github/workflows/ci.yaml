@@ -71,4 +71,4 @@ jobs:
       
       - name: Applying th eterraform code 
         run: | 
-          terraform apply - auto-approve tfplan
+          terraform apply -auto-approve tfplan
